@@ -12,21 +12,21 @@ app.use(cors());
 const server = http.Server(app);
 const io = socket(server);
 
-io.on('connection', socket => {
-    socket.on('connectionRoom', box => {
-        socket.join(box);
-    });
-    console.log('OK');
+io.on('connection', (socket) => {
+  socket.on('connectionRoom', (box) => {
+    socket.join(box);
+  });
+  console.log('OK');
 });
 
 mongoose.connect('mongodb+srv://xanatrone:xanatrone@cluster0-qpfpp.mongodb.net/xanatrone?retryWrites=true', {
-    useNewUrlParser: true
+  useNewUrlParser: true,
 });
 
 app.use((req, res, next) => {
-    req.io = io;
+  req.io = io;
 
-    return next();
+  return next();
 });
 
 app.use(express.json());
