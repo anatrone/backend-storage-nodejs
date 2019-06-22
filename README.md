@@ -1,7 +1,7 @@
 # anatrone's house
 ### Back-end and aplication created by the RocketSeat course
 
-* Aplication application that resembles *Dropbox*.
+* Application that resembles *Dropbox*.
 * Will be rewritten to be a local storage service for residential environment.
 
 ![RocketSeat](https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/528611/528611-1529426771233-408cb5b776122.jpg)
