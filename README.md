@@ -1,7 +1,6 @@
 # anatrone's house
 > back-end with react and NodeJS app of the application model "Dropbox" developed in the course of RocketSeat.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project was designed to learn in a week the various technologies most used in the market. Will be rewritten to be a local storage service for residential environment.
@@ -13,7 +12,7 @@ This project was designed to learn in a week the various technologies most used 
 
 Gabriel Anatrone – [@instagram](https://instagram.com/anatrone) – anatrone.gabriel@gmail.com
 
-Distributed under the Apache License 2.0. See [LICENSE](https://github.com/DLTK/models/blob/master/LICENSE) for more information.
+Distributed under the License: MIT. See [LICENSE](https://opensource.org/licenses/MIT) for more information.
 
 [https://github.com/anatrone/](https://github.com/anatrone/)
 
